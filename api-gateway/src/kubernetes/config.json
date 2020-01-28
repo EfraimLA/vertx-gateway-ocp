@@ -1,0 +1,12 @@
+{
+  "api.name": "api-gateway",
+  "http.port": 8080,
+  "http.host": "0.0.0.0",
+  "circuit-breaker": {
+    "name": "api-gateway-cb",
+    "maxFailures": 5,
+    "timeout": 10000,
+    "resetTimeout": 30000
+  },
+  "cors-allow": "*"
+}
